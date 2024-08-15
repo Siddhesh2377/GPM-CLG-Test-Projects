@@ -1,15 +1,46 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+import services.Operations;
+import services.U;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+import java.util.Scanner;
+
+public class Main {
+
+    static int a, b;
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        U.println("Hello User !!");
+        U.println("Input the number for a!");
+        a = scanner.nextInt();
+
+        U.println("Input the number for b!");
+        b = scanner.nextInt();
+
+        U.println("Select The Operation !! \n\n Addition - 1 \n Subtraction - 2 \n Multiplication - 3 \n Divide - 4");
+
+        int input = scanner.nextInt();
+        Operations o = new Operations(a, b);
+
+        if (input == 1){
+            U.println("> " + o.add());
+        }else {
+            if (input == 2){
+                U.println("> " + o.subtract());
+            }else {
+                if (input == 3){
+                    U.println("> " + o.multiply());
+                }else {
+                    if (input == 4){
+                        U.println("> " + o.divide());
+                    }else {
+                        U.println("No Operation Selected \n Exiting The program !!");
+                        System.exit(0);
+                    }
+                }
+            }
         }
+
     }
 }
