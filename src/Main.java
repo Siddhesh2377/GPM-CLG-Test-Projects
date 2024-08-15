@@ -9,13 +9,18 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //Taking the Input From User
         Scanner scanner = new Scanner(System.in);
 
+
+        //Showing Message
         U.println("Hello User !!");
         U.println("Input the number for a!");
+
         a = scanner.nextInt();
 
         U.println("Input the number for b!");
+
         b = scanner.nextInt();
 
         U.println("Select The Operation !! \n\n Addition - 1 \n Subtraction - 2 \n Multiplication - 3 \n Divide - 4");
@@ -23,6 +28,7 @@ public class Main {
         int input = scanner.nextInt();
         Operations o = new Operations(a, b);
 
+        //Processing the Input
         if (input == 1){
             U.println("> " + o.add());
         }else {
