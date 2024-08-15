@@ -2,31 +2,32 @@ package services;
 
 public class Operations {
 
-    private int a, b;
+    private final int a;
+    private final int b;
 
     //Constructor
-    public Operations(int a, int b){
+    public Operations(int a, int b) {
         this.a = a;
         this.b = b;
     }
 
     //Addition
-    public int add(){
+    public int add() {
         return a + b;
     }
 
     //Subtraction
-    public int subtract(){
+    public int subtract() {
         return a - b;
     }
 
     //Multiplication
-    public int multiply(){
+    public int multiply() {
         return a * b;
     }
 
     //Divide
-    public int divide(){
+    public int divide() {
         return a / b;
     }
 

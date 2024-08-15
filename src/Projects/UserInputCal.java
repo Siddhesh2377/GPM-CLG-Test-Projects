@@ -1,9 +1,11 @@
+package Projects;
+
 import services.Operations;
 import services.U;
 
 import java.util.Scanner;
 
-public class Main {
+public class UserInputCal {
 
     static int a, b;
 
@@ -29,18 +31,18 @@ public class Main {
         Operations o = new Operations(a, b);
 
         //Processing the Input
-        if (input == 1){
+        if (input == 1) {
             U.println("> " + o.add());
-        }else {
-            if (input == 2){
+        } else {
+            if (input == 2) {
                 U.println("> " + o.subtract());
-            }else {
-                if (input == 3){
+            } else {
+                if (input == 3) {
                     U.println("> " + o.multiply());
-                }else {
-                    if (input == 4){
+                } else {
+                    if (input == 4) {
                         U.println("> " + o.divide());
-                    }else {
+                    } else {
                         U.println("No Operation Selected \n Exiting The program !!");
                         System.exit(0);
                     }

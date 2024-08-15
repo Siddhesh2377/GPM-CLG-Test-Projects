@@ -18,5 +18,5 @@ This repository showcases my work and knowledge of Java and Kotlin. The projects
 
 - **Simple Java Printing & UserInput**  
   Description: This Project will include Takeing Input from User from CLI and printing the result !!.  
-  Main Topics: (Scanner Lib, CLI Input, CLI Printing, Operations)  
+  Projects.Main Topics: (Scanner Lib, CLI Input, CLI Printing, Operations)  
 
