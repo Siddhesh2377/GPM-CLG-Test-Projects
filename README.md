@@ -7,11 +7,6 @@ This repository contains various Java and Kotlin test projects that were develop
 1. [Introduction](#introduction)
 2. [Projects](#projects)
    - [Java Projects](#java-projects)
-   - [Kotlin Projects](#kotlin-projects)
-3. [How to Run the Projects](#how-to-run-the-projects)
-4. [Technologies Used](#technologies-used)
-5. [Contributing](#contributing)
-6. [License](#license)
 
 ## Introduction
 
@@ -21,26 +16,7 @@ This repository showcases my work and knowledge of Java and Kotlin. The projects
 
 ### Java Projects
 
-- **Project Name 1**  
-  Description: A brief description of the first Java project.  
-  Main Topics: (e.g., Data Structures, OOP, Design Patterns)  
+- **Simple Java Printing & UserInput**  
+  Description: This Project will include Takeing Input from User from CLI and printing the result !!.  
+  Main Topics: (Scanner Lib, CLI Input, CLI Printing, Operations)  
 
-- **Project Name 2**  
-  Description: A brief description of the second Java project.  
-  Main Topics: (e.g., Algorithms, Multithreading, GUI)
-
-### Kotlin Projects
-
-- **Project Name 1**  
-  Description: A brief description of the first Kotlin project.  
-  Main Topics: (e.g., Android Development, Coroutines, Functional Programming)
-
-- **Project Name 2**  
-  Description: A brief description of the second Kotlin project.  
-  Main Topics: (e.g., Mobile Development, UI Animations, Jetpack Compose)
-
-## How to Run the Projects
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
