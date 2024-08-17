@@ -26,3 +26,12 @@ This repository contains various Java and Kotlin test projects that were develop
    - ```bash
      # Run The Java File
      javac Main.java
+     
+## Thank You !!
+   
+     Hope You Like This Project !!
+     Do Fallow me I will Fallow ya back !
+
+## Licence
+
+This repository is licensed under the [MIT License](LICENSE).
