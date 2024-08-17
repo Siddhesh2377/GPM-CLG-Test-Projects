@@ -26,6 +26,3 @@ This repository contains various Java and Kotlin test projects that were develop
    - ```bash
      # Run The Java File
      javac Main.java
-
-## Introduction
-
