@@ -5,11 +5,14 @@ This repository contains various Java and Kotlin test projects that were develop
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Java Projects](#projects)
+   -
+3. [Java Projects](#projects)
+   -
    - [UserInputCal Project](https://github.com/Siddhesh2377/GPM-CLG-Test-Projects/blob/master/src/Projects/UserInputCal.java)
    - [Pattern Project](https://github.com/Siddhesh2377/GPM-CLG-Test-Projects/blob/master/src/Projects/PatternClass.java)
-3. [Kotlin Projects](#projects)
-   - 
+4. [Kotlin Projects](#projects)
+   
+   
 
 ## Introduction
 
