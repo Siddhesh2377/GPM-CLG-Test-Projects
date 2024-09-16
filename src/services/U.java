@@ -10,4 +10,8 @@ public class U {
         System.out.println(s);
     }
 
+    public static void println() {
+        System.out.println();
+    }
+
 }
